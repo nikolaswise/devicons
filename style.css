@@ -3,12 +3,12 @@ h2 {
 }
 
 @font-face {
-	font-family: 'front-end-stack';
-	src:url('fonts/front-end-stack.eot');
-	src:url('fonts/front-end-stack.eot?#iefix') format('embedded-opentype'),
-		url('fonts/front-end-stack.woff') format('woff'),
-		url('fonts/front-end-stack.ttf') format('truetype'),
-		url('fonts/front-end-stack.svg#front-end-stack') format('svg');
+	font-family: 'devicons';
+	src:url('fonts/devicons.eot');
+	src:url('fonts/devicons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/devicons.woff') format('woff'),
+		url('fonts/devicons.ttf') format('truetype'),
+		url('fonts/devicons.svg#devicons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -19,8 +19,8 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-compass, .icon-grunt, .icon-sublime, .icon-ruby, .icon-require, .icon-node, .icon-js, .icon-html, .icon-finder, .icon-dribbble, .icon-css, .icon-beerjs, .icon-angular {
-	font-family: 'front-end-stack';
+.icon-compass, .icon-grunt, .icon-sublime, .icon-ruby, .icon-require, .icon-node, .icon-js, .icon-html, .icon-finder, .icon-dribbble, .icon-css, .icon-beerjs, .icon-angular, .icon-cascadiajs {
+	font-family: 'devicons';
 		speak: none;
 	/* Enable Ligatures */
 	-webkit-font-feature-settings:"liga","dlig";-moz-font-feature-settings:"liga=1, dlig=1";-moz-font-feature-settings:"liga","dlig";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";
@@ -34,7 +34,7 @@ you can use the generic selector below, but it's slower:
 	-webkit-font-smoothing: antialiased;
 }
 .icon-compass {
-	color: #EB818B;
+	color: #C9232E;
 }
 .icon-compass:before {
 	margin-right: -1em;
@@ -44,10 +44,10 @@ you can use the generic selector below, but it's slower:
 .icon-compass:after {
 	margin-left: -1em;
 	content:"compassfront";
-	color: #C9232E;
+	color: #EB818B;
 }
 .icon-grunt {
-	color: #666;
+	color: #e68724;
 }
 .icon-grunt:before {
 	margin-right: -1em;
@@ -57,10 +57,10 @@ you can use the generic selector below, but it's slower:
 .icon-grunt:after {
 	margin-left: -1em;
 	content:"gruntfront";
-	color: #ddd;
+	color: #463017;
 }
 .icon-sublime{
-	color: #E48733;
+	color: #4a4b4b;
 }
 .icon-sublime:before {
 	margin-right: -1em;
@@ -73,17 +73,17 @@ you can use the generic selector below, but it's slower:
 	color: #F7AA5A;
 }
 .icon-ruby {
-	color: #666;
+	color: #a41d21;
 }
 .icon-ruby:before {
 	margin-right: -1em;
 	content: "rubyback";
-	color: #000;
+	color: #c52726;
 }
 .icon-ruby:after {
 	margin-left: -1em;
 	content:"rubyfront";
-	color: #ddd;
+	color: #871b19;
 }
 .icon-require {
 	color: #ED493D;
@@ -192,4 +192,13 @@ you can use the generic selector below, but it's slower:
 	margin-left: -1em;
 	content:"angularfront";
 	color: #B52F31;
+}
+
+.icon-cascadiajs{
+	color: #6fbeea;
+}
+.icon-cascadiajs:after {
+	margin-left: -1em;
+	content: "cascadiajsfront";
+	color: #2d833f;
 }
