@@ -19,7 +19,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-compass, .icon-grunt, .icon-sublime, .icon-ruby, .icon-require, .icon-node, .icon-js, .icon-html5, .icon-finder, .icon-dribbble, .icon-css3, .icon-beerjs, .icon-angular {
+.icon-compass, .icon-grunt, .icon-sublime, .icon-ruby, .icon-require, .icon-node, .icon-js, .icon-html, .icon-finder, .icon-dribbble, .icon-css, .icon-beerjs, .icon-angular {
 	font-family: 'front-end-stack';
 		speak: none;
 	/* Enable Ligatures */
@@ -34,17 +34,17 @@ you can use the generic selector below, but it's slower:
 	-webkit-font-smoothing: antialiased;
 }
 .icon-compass {
-	color: #666;
+	color: #EB818B;
 }
 .icon-compass:before {
 	margin-right: -1em;
 	content: "compassback";
-	color: #000;
+	color: #D5222D;
 }
 .icon-compass:after {
 	margin-left: -1em;
 	content:"compassfront";
-	color: #ddd;
+	color: #C9232E;
 }
 .icon-grunt {
 	color: #666;
@@ -52,7 +52,7 @@ you can use the generic selector below, but it's slower:
 .icon-grunt:before {
 	margin-right: -1em;
 	content: "gruntback";
-	color: #000;
+	color: #F7A832;
 }
 .icon-grunt:after {
 	margin-left: -1em;
@@ -60,17 +60,17 @@ you can use the generic selector below, but it's slower:
 	color: #ddd;
 }
 .icon-sublime{
-	color: #666;
+	color: #E48733;
 }
 .icon-sublime:before {
 	margin-right: -1em;
 	content: "sublimeback";
-	color: #000;
+	color: #6A6968;
 }
 .icon-sublime:after {
 	margin-left: -1em;
 	content:"sublimefront";
-	color: #ddd;
+	color: #F7AA5A;
 }
 .icon-ruby {
 	color: #666;
@@ -86,99 +86,110 @@ you can use the generic selector below, but it's slower:
 	color: #ddd;
 }
 .icon-require {
-	color: #666;
+	color: #ED493D;
 }
 .icon-require:before {
 	margin-right: -1em;
 	content: "requireback";
-	color: #000;
+	color: #4D9DD3;
 }
 .icon-require:after {
 	margin-left: -1em;
 	content:"requirefront";
-	color: #ddd;
+	color: #F0E733;
+}
+.icon-node {
+	color:#46483F;
 }
 .icon-node:after {
 	content: "nodefront";
+	color: #8FC555;
+	margin-left:-1em;
 }
-.icon-js:after {
-	content: "jsfront";
+.icon-js {
+	color:#333332;
 }
-.icon-html5 {
-	color: #666;
+.icon-js:before {
+	content: "jsback";
+	margin-right:-1em;
+	color:#FADC47;
 }
-.icon-html5:before {
+.icon-html {
+	color: #E05130;
+}
+.icon-html:before {
 	margin-right: -1em;
-	content: "html5back";
-	color: #000;
+	content: "htmlback";
+	color: #EAEAEB;
 }
-.icon-html5:after {
+.icon-html:after {
 	margin-left: -1em;
-	content:"html5front";
-	color: #ddd;
+	content:"htmlfront";
+	color: #EC6635;
 }
 .icon-finder {
-	color: #666;
+	color: #D2DEF1;
 }
 .icon-finder:before {
 	margin-right: -1em;
 	content: "finderback";
-	color: #000;
+	color: #73A2D0;
 }
-con-finder:after {
+.icon-finder:after {
 	margin-left: -1em;
 	content:"finderfront";
-	color: #ddd;
+	color: #221F20;
 }
 .icon-dribbble {
-	color: #666;
+	color: #F29ABC;
 }
 .icon-dribbble:before {
 	margin-right: -1em;
 	content: "dribbbleback";
-	color: #000;
+	color: #EE73A3;
 }
 .icon-dribbble:after {
 	margin-left: -1em;
 	content:"dribbblefront";
-	color: #ddd;
+	color: #C6386D;
 }
-.icon-css3{
-	color: #666;
+.icon-css{
+	color: #EAEAEB;
 }
-.icon-css3:before {
+.icon-css:before {
 	margin-right: -1em;
-	content: "ccs3back";
-	color: #000;
+	content: "cssback";
+	color: #1872B6;
 }
-.icon-css3:after {
+.icon-css:after {
 	margin-left: -1em;
-	content:"css3front";
-	color: #ddd;
+	content:"cssfront";
+	color: #33A8DC;
 }
 .icon-beerjs {
-	color: #666;
+	color: #B5CDE1;
 }
 .icon-beerjs:before {
 	margin-right: -1em;
 	content: "beerjsback";
-	color: #000;
+	color: #FADC47;
 }
 .icon-beerjs:after {
 	margin-left: -1em;
 	content:"beerjsfront";
-	color: #ddd;
+	color: #333332;
 }
 .icon-angular {
-	color: #666;
+	color: #E23337;
 }
 .icon-angular:before {
 	margin-right: -1em;
 	content: "angularback";
-	color: #000;
+	color: #B2B2B2;
+
 }
 .icon-angular:after {
 	margin-left: -1em;
 	content:"angularfront";
-	color: #ddd;
+	color: #B52F31;
 }
