@@ -1,0 +1,162 @@
+/* WARNING:	You are using ligatures for your icon font.
+			Ligatures are not supported in IE 9 (and older).
+			Use the Private Use Area encoding for best browser support.
+==================================================================== */
+@font-face {
+	font-family: 'front-end-stack';
+	src:url('fonts/front-end-stack.eot');
+	src:url('fonts/front-end-stack.eot?#iefix') format('embedded-opentype'),
+		url('fonts/front-end-stack.woff') format('woff'),
+		url('fonts/front-end-stack.ttf') format('truetype'),
+		url('fonts/front-end-stack.svg#front-end-stack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'front-end-stack';
+	content: attr(data-icon);
+		speak: none;
+	/* Enable Ligatures */
+	-webkit-font-feature-settings:"liga","dlig";-moz-font-feature-settings:"liga=1, dlig=1";-moz-font-feature-settings:"liga","dlig";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";
+	font-feature-settings:"liga","dlig";
+	text-rendering:optimizeLegibility;
+		font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-compassfront, .icon-compassback, .icon-compass, .icon-gruntfront, .icon-gruntback, .icon-grunt, .icon-sublimefront, .icon-sublimeback, .icon-sublime, .icon-rubyfront, .icon-rubyback, .icon-ruby, .icon-requirefront, .icon-requireback, .icon-require, .icon-nodefront, .icon-node, .icon-jsback, .icon-js, .icon-html5front, .icon-html5back, .icon-html5, .icon-finderfront, .icon-finderback, .icon-finder, .icon-dribbblefront, .icon-dribbbleback, .icon-dribbble, .icon-css3front, .icon-css3back, .icon-css3, .icon-beerjsfront, .icon-beerjsback, .icon-beerjs, .icon-angularfront, .icon-angularback, .icon-angular {
+	font-family: 'front-end-stack';
+		speak: none;
+	/* Enable Ligatures */
+	-webkit-font-feature-settings:"liga","dlig";-moz-font-feature-settings:"liga=1, dlig=1";-moz-font-feature-settings:"liga","dlig";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";
+	font-feature-settings:"liga","dlig";
+	text-rendering:optimizeLegibility;
+		font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-compassfront:before {
+	content: "\63\6f\6d\70\61\73\73";
+}
+.icon-compassback:before {
+	content: "\63\6f\6d\70\61\73\73\62\61\63\6b";
+}
+.icon-compass:before {
+	content: "\63\6f\6d\70\61\73\73\66\72\6f\6e\74";
+}
+.icon-gruntfront:before {
+	content: "\67\72\75\6e\74\66\72\6f\6e\74";
+}
+.icon-gruntback:before {
+	content: "\67\72\75\6e\74\62\61\63\6b";
+}
+.icon-grunt:before {
+	content: "\67\72\75\6e\74";
+}
+.icon-sublimefront:before {
+	content: "\73\75\62\6c\69\6d\65\66\72\6f\6e\74";
+}
+.icon-sublimeback:before {
+	content: "\73\75\62\6c\69\6d\65\62\61\63\6b";
+}
+.icon-sublime:before {
+	content: "\73\75\62\6c\69\6d\65";
+}
+.icon-rubyfront:before {
+	content: "\72\75\62\79\66\72\6f\6e\74";
+}
+.icon-rubyback:before {
+	content: "\72\75\62\79\62\61\63\6b";
+}
+.icon-ruby:before {
+	content: "\72\75\62\79";
+}
+.icon-requirefront:before {
+	content: "\72\65\71\75\69\72\65\66\72\6f\6e\74";
+}
+.icon-requireback:before {
+	content: "\72\65\71\75\69\72\65\62\61\63\6b";
+}
+.icon-require:before {
+	content: "\72\65\71\75\69\72\65";
+}
+.icon-nodefront:before {
+	content: "\6e\6f\64\65\66\72\6f\6e\74";
+}
+.icon-node:before {
+	content: "\6e\6f\64\65";
+}
+.icon-jsback:before {
+	content: "\6a\73\62\61\63\6b";
+}
+.icon-js:before {
+	content: "\6a\73";
+}
+.icon-html5front:before {
+	content: "\68\74\6d\6c\66\72\6f\6e\74";
+}
+.icon-html5back:before {
+	content: "\68\74\6d\6c\62\61\63\6b";
+}
+.icon-html5:before {
+	content: "\68\74\6d\6c";
+}
+.icon-finderfront:before {
+	content: "\66\69\6e\64\65\72\66\72\6f\6e\74";
+}
+.icon-finderback:before {
+	content: "\66\69\6e\64\65\72\62\61\63\6b";
+}
+.icon-finder:before {
+	content: "\66\69\6e\64\65\72";
+}
+.icon-dribbblefront:before {
+	content: "\64\72\69\62\62\62\6c\65\66\72\6f\6e\74";
+}
+.icon-dribbbleback:before {
+	content: "\64\72\69\62\62\62\6c\65\62\61\63\6b";
+}
+.icon-dribbble:before {
+	content: "\64\72\69\62\62\62\6c\65";
+}
+.icon-css3front:before {
+	content: "\63\73\73\66\72\6f\6e\74";
+}
+.icon-css3back:before {
+	content: "\63\73\73\62\61\63\6b";
+}
+.icon-css3:before {
+	content: "\63\73\73";
+}
+.icon-beerjsfront:before {
+	content: "\62\65\65\72\6a\73\66\72\6f\6e\74";
+}
+.icon-beerjsback:before {
+	content: "\62\65\65\72\6a\73\62\61\63\6b";
+}
+.icon-beerjs:before {
+	content: "\62\65\65\72\6a\73";
+}
+.icon-angularfront:before {
+	content: "\61\6e\67\75\6c\61\72";
+}
+.icon-angularback:before {
+	content: "\61\6e\67\75\6c\61\72\62\61\63\6b";
+}
+.icon-angular:before {
+	content: "\61\6e\67\75\6c\61\72\66\72\6f\6e\74";
+}
