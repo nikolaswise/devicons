@@ -28,16 +28,14 @@ a:hover {
 }
 
 h1 {
-	font-family: "freight-sans-pro",sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 6rem;
-	/*line-height: 0.25rem;*/
 	text-align: center;
-	margin-top: 4rem;
-	margin-bottom: 1rem;
-	text-transform: uppercase;
-	letter-spacing: 0.15em;
+	margin-top: 2rem;
+	margin-bottom: -2rem;
+	letter-spacing:normal;
+	font-size:500px;
+	line-height:0;
+
+
 }
 h2 {
 	font-size: 12em;
