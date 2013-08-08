@@ -29,20 +29,18 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-
 .icon-devicons{
-/*	color:;*/
+	color:#EC6635;
 }
 .icon-devicons:before{
 	margin-right: -1em;
-	/*color:;*/
+	color:#EAEAEB;
 	content: "deviconsback";
 }
 .icon-devicons:after{
 	margin-left: -1em;
-	/*color:;*/
+	color:#E05130;
 	content: "deviconsfront";
-
 }
 .icon-compass {
 	color: #C9232E;
