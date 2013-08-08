@@ -1,7 +1,3 @@
-h2 {
-	font-size: 8rem;
-}
-
 @font-face {
 	font-family: 'devicons';
 	src:url('fonts/devicons.eot');
@@ -19,7 +15,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-compass, .icon-grunt, .icon-sublime, .icon-ruby, .icon-require, .icon-node, .icon-js, .icon-html, .icon-finder, .icon-dribbble, .icon-css, .icon-beerjs, .icon-angular, .icon-cascadiajs {
+.icon-compass, .icon-grunt, .icon-sublime, .icon-ruby, .icon-require, .icon-node, .icon-js, .icon-html, .icon-finder, .icon-dribbble, .icon-css, .icon-beerjs, .icon-angular, .icon-cascadiajs, .icon-devicons {
 	font-family: 'devicons';
 		speak: none;
 	/* Enable Ligatures */
@@ -32,6 +28,21 @@ you can use the generic selector below, but it's slower:
 	text-transform: none;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
+}
+
+.icon-devicons{
+/*	color:;*/
+}
+.icon-devicons:before{
+	margin-right: -1em;
+	/*color:;*/
+	content: "deviconsback";
+}
+.icon-devicons:after{
+	margin-left: -1em;
+	/*color:;*/
+	content: "deviconsfront";
+
 }
 .icon-compass {
 	color: #C9232E;
